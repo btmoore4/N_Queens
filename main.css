@@ -1,0 +1,40 @@
+body{
+		margin:0;
+		padding:0;
+}
+
+#page {
+	height: 400px;
+	width: 100%;
+	background-color:#84c754;
+}
+
+#main_content {
+	height: 100%;
+	width: 400px;
+	min-width: 400px; 
+	background-color:#00FF00;
+	margin: 0 auto;
+}
+
+.row {
+	height: 12.5%;
+	width: 100%;
+	background-color:#222254;
+}
+
+.col1 {
+	height: 100%;
+	width: 12.5%;
+	background-color:orange;
+	float: left;
+}
+
+.col2 {
+	height: 100%;
+	width: 12.5%;
+	background-color:blue;
+	float: left;
+}
+
+	
