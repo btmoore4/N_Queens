@@ -16,10 +16,11 @@ p {
 
 #main_content {
 	height: 100%;
-	width: 400px;
+	width: 412px;
 	min-width: 400px; 
 	background-color:#ffffff;
 	margin: 0 auto;
+	border: 6px solid brown;
 }
 
 #soltext {
@@ -35,14 +36,14 @@ p {
 .col1 {
 	height: 100%;
 	width: 12.5%;
-	background-color:orange;
+	background-color: #107896;
 	float: left;
 }
 
 .col2 {
 	height: 100%;
 	width: 12.5%;
-	background-color:blue;
+	background-color: #f2f3f4;
 	float: left;
 }
 

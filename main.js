@@ -61,10 +61,10 @@ function undraw() {
 		var col1 = document.getElementsByClassName("col1");
 		var col2 = document.getElementsByClassName("col2");
 		for (var i = 0; i < col1.length; i++){
-			col1[i].style.backgroundColor = 'orange';
+			col1[i].style.backgroundColor = "#107896";
 		}
 		for (var i = 0; i < col2.length; i++){
-			col2[i].style.backgroundColor = 'blue';
+			col2[i].style.backgroundColor = "#f2f3f4";
 		}
 		return;
 };
@@ -82,7 +82,7 @@ function draw(Q, n) {
 				coord = coord.concat(i+1);  
 				console.log(coord); 
 				var div = document.getElementById(coord);
-				div.style.backgroundColor = 'red';
+				div.style.backgroundColor = '#c02f1d';
 		}
 
 };
