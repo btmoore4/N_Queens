@@ -3,15 +3,19 @@ var num = 0;
 var solnum = 0; 
 var sol = []; 
 
+//Main Run function of the webpage. 
+//Controls the buttons and runs the Queens algorithm apporpriatly 
 function run() {
 		undraw();
 		if ((num == 0) && (world == 0)){
+				//Only runs the algo once per page load
 		var Q = [0,0,0,0,0,0,0,0,0]; 
 		console.log("Initialized"); 
 		Queens(Q,1,8);
 		console.log("Done"); 
 		world = 1; 
 		}
+		//Allows user to iterate through the solutions
 		draw(sol[num], 8); 
 		console.log(num); 
 		console.log(solnum); 
@@ -21,10 +25,9 @@ function run() {
 				num = 0; 
 };
 
+//Standard solution for the N Queens Problem 
 function Queens(Q,r,n) {
 		if (r == n + 1){
-				//draw(Q,n);
-				//throw new Error("Something went badly wrong!");
 				var P = Q.slice(); 
 				sol.push(P); 
 				solnum++;
@@ -49,6 +52,7 @@ function Queens(Q,r,n) {
 		return;
 };
 
+//Called by the reset button
 function clear_all() {
 		num = 0;
 		undraw();
@@ -56,6 +60,7 @@ function clear_all() {
 		return; 
 };
 
+//Restores the chess board to original colors
 function undraw() {
 
 		var col1 = document.getElementsByClassName("col1");
@@ -69,7 +74,7 @@ function undraw() {
 		return;
 };
 
-
+//draws the solution of the given solution array
 function draw(Q, n) {
 		console.log("drawing"); 
 		for (i=0; i < (n); i++){
