@@ -1,30 +1,50 @@
 body{
 		margin:0;
 		padding:0;
+	background-color:#dadedf;
 }
 
+h1{
+	font-family: 'Oswald', sans-serif;
+	color: #555f61;
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+h3{
+	font-family: 'Oswald', sans-serif;
+	color: #555f61;
+	text-align: center;
+	font-size: 11px; 
+}
 p {
 	font-family: "Times New Roman", Georgia, Serif;	
+	color: #373d3f;
 	font-size: 16px; 
+	text-align: center;
 }
 
 #page {
 	height: 400px;
 	width: 100%;
-	background-color:#ffffff;
+	background-color:#dadedf;
 }
 
 #main_content {
 	height: 100%;
 	width: 412px;
 	min-width: 400px; 
-	background-color:#ffffff;
+	background-color:#dadedf;
 	margin: 0 auto;
 	border: 6px solid brown;
 }
 
 #soltext {
 	 text-align: center;
+}
+
+.button {
+	margin: 0 auto;
 }
 
 .row {
@@ -45,6 +65,12 @@ p {
 	width: 12.5%;
 	background-color: #f2f3f4;
 	float: left;
+}
+
+#butt {
+	min-width: 400px; 
+	width: 412px;
+	margin: 0 auto;
 }
 
 	
