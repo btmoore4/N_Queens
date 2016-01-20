@@ -45,7 +45,12 @@ p {
 
 .button {
 		margin: 0 auto;
+		border-radius: 5px; 
+		background-color: #3366cc;
+		color: white; 
+		font-size: 12px; 
 }
+
 
 .row {
 		height: 12.5%;
