@@ -81,9 +81,7 @@ function draw(Q, n) {
 				var coord = ""; 
 				coord = coord.concat("t");  
 				coord = coord.concat(Q[i+1]);  
-				//coord = coord.concat(i+1);  
 				coord = coord.concat(".");  
-				//coord = coord.concat(Q[i+1]);  
 				coord = coord.concat(i+1);  
 				console.log(coord); 
 				var div = document.getElementById(coord);
